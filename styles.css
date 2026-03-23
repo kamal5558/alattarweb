@@ -11,7 +11,7 @@ body {
     direction: rtl;
 }
 header{
-    background-color: rgb(240, 221, 48);
+    background-color: rgb(243, 227, 86);
     color: white;
     text-align: center;
     padding: 15px;
@@ -26,14 +26,14 @@ nav{
 }
 nav a {
     color: white;
-    margin: 10px;
+    margin: 20px;
     text-decoration: none;
     list-style-type: none;
-    font-size: 20px;
-}
-nav a:hover {
+    font-size: 25px;
+}    
+    nav a:hover {
     color: yellow;
-    font-size: 27px;
+    font-size: 30px;
 }
 section{
     padding: 20px;
@@ -59,18 +59,24 @@ footer {
 #end {
     border: 2px solid hwb(36 37% 3%);
 }
+#up {
+    text-align: center;
+    font-size: 35px;
+    align-items: center;
+}
 
 @media (max-width:650px) {
     nav a{
-        font-size: 14px;
+        font-size: 25px;
     }
 
     nav a:hover {
-        font-size: 18px;
+        font-size: 30px;
     }
     #products {
         flex-direction: column;
         align-items: center;
+
     }
     img {
         width: 100%;
